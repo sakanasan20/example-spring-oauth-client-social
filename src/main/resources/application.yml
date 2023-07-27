@@ -1,0 +1,16 @@
+server:
+  port: 8088
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: YOUR_GOOGLE_CLIENT_ID
+            client-secret: YOUR_GOOGLE_CLIENT_SECRET
+#          facebook:
+#            client-id:
+#            client-secret:
+#          github:
+#            client-id:
+#            client-secret:
